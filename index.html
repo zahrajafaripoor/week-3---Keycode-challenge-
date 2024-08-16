@@ -8,20 +8,29 @@
 </head>
 <body>
 
+ <!--
+    The main container that holds all the page elements.
+    Includes the title, key code display, and info boxes.
+  -->
+
   <div class="container">
     <h1>Welcome to the Key Code Generator</h1>
     <div class="key-display">
       <span id="key-code">0</span>
     </div>
+     <!-- Three boxes to display information about the pressed key -->
     <div class="key-info-boxes">
+      <!-- Box to display event.key (key name) -->
       <div class="box">
         <p>event.key</p>
         <p id="key">?</p>
       </div>
+     <!-- Box to display event.code (key code) --> 
       <div class="box">
         <p>event.code</p>
         <p id="code">?</p>
       </div>
+       <!-- Box to display event.which (key number) -->
       <div class="box">
         <p>event.which</p>
         <p id="which">?</p>
