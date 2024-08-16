@@ -3,20 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Keycode Generator</title>
+  <title>Key Code Generator</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <div class="container">
-    <div class="welcome">Press any key to see its code information</div>
-    <div class="key-box" id="key-box">
-      <span id="key-code">?</span>
+    <h1>Welcome to the Key Code Generator</h1>
+    <div class="key-display">
+      <span id="key-code">0</span>
     </div>
-    <div class="output">
-      <p class="key-info">.code: <span id="code"></span></p>
-      <p class="key-info">.key: <span id="key"></span></p>
-      <p class="key-info">.which: <span id="which"></span></p>
+    <div class="key-info-boxes">
+      <div class="box">
+        <p>event.key</p>
+        <p id="key">?</p>
+      </div>
+      <div class="box">
+        <p>event.code</p>
+        <p id="code">?</p>
+      </div>
+      <div class="box">
+        <p>event.which</p>
+        <p id="which">?</p>
+      </div>
     </div>
   </div>
 

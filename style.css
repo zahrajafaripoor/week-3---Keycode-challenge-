@@ -1,39 +1,60 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin-top: 50px;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
   }
   
   .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
   }
   
-  .welcome {
-    font-size: 24px;
+  h1 {
+    font-size: 32px;
     margin-bottom: 20px;
   }
   
-  .key-box {
-    width: 150px;
-    height: 150px;
-    background-color: #f2f2f2;
-    border: 2px solid #ccc;
+  .key-display {
+    width: 300px;
+    height: 200px;
+    background-color: #e0e0e0;
     display: flex;
-    align-items: center;
     justify-content: center;
-    font-size: 72px;
+    align-items: center;
+    font-size: 150px;
     font-weight: bold;
     color: #333;
-    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
   }
   
-  .output {
+  .key-info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .box {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+  }
+  
+  .box p {
+    margin: 0;
     font-size: 18px;
   }
   
-  .key-info {
-    font-size: 18px;
+  .box p:last-child {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
     margin-top: 10px;
   }
